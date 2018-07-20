@@ -62,7 +62,7 @@
     <configuration>
         <muleVersion>${mule.version}</muleVersion>
         <deploymentType>cloudhub</deploymentType>
-        <applicationName>${artifactId}-${version}</applicationName>
+        <applicationName>${project.artifactId}-${project.version}</applicationName>
         <username>${cloudhub.username}</username>
         <password>${cloudhub.password}</password>
         <workerType>Micro</workerType>
